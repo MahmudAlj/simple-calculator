@@ -56,10 +56,15 @@ public:
 int main(){
 
 
-calculate<int> just;
-just.giris_al();
-just.sayi_al();
-std::cout <<  just.secim() << std::endl;
+calculate<int> justi;
+justi.giris_al();
+justi.sayi_al();
+std::cout <<  justi.secim() << std::endl;
 
+
+calculate<float> justf;
+justf.giris_al();
+justf.sayi_al();
+std::cout <<  justf.secim() << std::endl;
     return 0;
 }
